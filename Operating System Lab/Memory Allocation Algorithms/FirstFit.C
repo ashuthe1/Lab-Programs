@@ -37,8 +37,7 @@ void firstFit(int blockSize[], int m, int processSize[], int n)
 }
 int main()
 {
-	int m; //number of blocks in the memory
-	int n; //number of processes in the input queue
+	int m, n;
 	int blockSize[] = {100, 500, 200, 300, 600};
 	int processSize[] = {212, 417, 112, 426};
 	m = sizeof(blockSize) / sizeof(blockSize[0]);
