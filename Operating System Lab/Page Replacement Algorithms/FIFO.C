@@ -7,7 +7,7 @@ int main()
     int m, n, s, pages;   
     pages = sizeof(incomingStream)/sizeof(incomingStream[0]);   
     printf("Incoming \t Frame 1 \t Frame 2 \t Frame 3 ");  
-    int temp[ frames ];  
+    int temp[frames];  
     for(m = 0; m < frames; m++)  
     {  
         temp[m] = -1;  
@@ -16,7 +16,7 @@ int main()
     {  
         s = 0;   
         for(n = 0; n < frames; n++)  
-        {  
+        {   
             if(incomingStream[m] == temp[n])  
             {  
                 s++;  
